@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SaleStalker/BrowseTableViewController.swift"
+            timestampString = "482833987.609107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "BrowseTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaleStalker.BrowseTableViewController.__deallocating_deinit"
+                  moduleName = "SaleStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
+                  timestampString = "482834416.503329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaleStalker.BrowseTableViewController.init (style : __C.UITableViewStyle) -&gt; SaleStalker.BrowseTableViewController"
+                  moduleName = "SaleStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
+                  timestampString = "482834416.503634"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaleStalker.BrowseTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; SaleStalker.BrowseTableViewController"
+                  moduleName = "SaleStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
+                  timestampString = "482834416.503826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SaleStalker.BrowseTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SaleStalker.BrowseTableViewController&gt;"
+                  moduleName = "SaleStalker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
+                  timestampString = "482834416.504024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
