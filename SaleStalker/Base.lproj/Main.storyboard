@@ -18,29 +18,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Iwz-Nz-yHz">
-                                <rect key="frame" x="20" y="143" width="560" height="150"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Iwz-Nz-yHz">
+                                <rect key="frame" x="20" y="195" width="560" height="306"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LogoClearBackground" translatesAutoresizingMaskIntoConstraints="NO" id="2bL-f9-4zo">
+                                        <rect key="frame" x="160" y="0.0" width="240" height="146"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="nzP-a4-Cwt"/>
+                                            <constraint firstAttribute="height" constant="146" id="zul-4p-2Xx"/>
+                                        </constraints>
+                                    </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dw3-a5-7dU">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="30"/>
+                                        <rect key="frame" x="0.0" y="156" width="560" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HKe-o5-ydr">
-                                        <rect key="frame" x="0.0" y="40" width="560" height="30"/>
+                                        <rect key="frame" x="0.0" y="196" width="560" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDW-1d-syZ">
-                                        <rect key="frame" x="0.0" y="80" width="38" height="30"/>
-                                        <state key="normal" title="Login"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDW-1d-syZ">
+                                        <rect key="frame" x="261" y="236" width="38" height="30"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" red="0.12156862745098039" green="0.12549019607843137" blue="0.19215686274509805" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="tryLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ww4-vf-xpr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0v-Pi-6bD">
-                                        <rect key="frame" x="0.0" y="120" width="55" height="30"/>
-                                        <state key="normal" title="Sign Up"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0v-Pi-6bD">
+                                        <rect key="frame" x="253" y="276" width="55" height="30"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" red="0.12156862745098039" green="0.12549019607843137" blue="0.19215686274509805" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="AWX-V7-G4L" kind="presentation" identifier="createAccountSegue" id="w9o-oN-Qmx"/>
                                         </connections>
@@ -59,14 +70,8 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sale Stalker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0M-al-fSL">
-                                <rect key="frame" x="20" y="50" width="171" height="54"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.70588235290000001" green="0.59215686270000001" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Iwz-Nz-yHz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="R9x-Yx-6iV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Iwz-Nz-yHz" secondAttribute="trailing" id="mMS-RR-C6Y"/>
@@ -302,7 +307,9 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jF0-Tl-4v8">
                                         <rect key="frame" x="227" y="200" width="107" height="30"/>
-                                        <state key="normal" title="Create Account"/>
+                                        <state key="normal" title="Create Account">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="createAccount:" destination="AWX-V7-G4L" eventType="touchUpInside" id="Tmy-3q-MOl"/>
                                             <segue destination="oVl-Cy-au4" kind="show" identifier="NewUserLoggedIn" id="mV4-EB-Zdy"/>
@@ -310,7 +317,9 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaW-DJ-81z">
                                         <rect key="frame" x="256" y="240" width="48" height="30"/>
-                                        <state key="normal" title="Cancel"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="cancelCreateAccount:" destination="AWX-V7-G4L" eventType="touchUpInside" id="mct-Ao-G6v"/>
                                         </connections>
@@ -330,7 +339,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.70980392160000005" green="0.59215686270000001" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="3i7-zR-KHU" firstAttribute="top" secondItem="ufT-T1-aCu" secondAttribute="bottom" constant="120" id="744-IW-JoL"/>
                             <constraint firstItem="3i7-zR-KHU" firstAttribute="leading" secondItem="zOP-uF-jra" secondAttribute="leadingMargin" id="IAW-8s-8Jj"/>
@@ -372,6 +381,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LogoClearBackground" width="1000" height="678"/>
         <image name="account" width="25" height="25"/>
         <image name="cart" width="25" height="25"/>
         <image name="revolve-logo" width="512" height="512"/>

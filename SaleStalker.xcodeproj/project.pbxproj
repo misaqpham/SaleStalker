@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5D717AD970DD297F004BB99A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ECC35272DE4C9CC4CD734B /* Pods.framework */; };
-		DBCC6CCB1C9FE159006A67BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCC6CCA1C9FE159006A67BF /* ViewController.swift */; };
+		DB304C001CD9F0CE005ADA57 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB304BFF1CD9F0CE005ADA57 /* Launch Screen.storyboard */; };
 		DBE4F2671C7BB75600982B23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4F2661C7BB75600982B23 /* AppDelegate.swift */; };
 		DBE4F2691C7BB75600982B23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4F2681C7BB75600982B23 /* LoginViewController.swift */; };
 		DBE4F26E1C7BB75600982B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE4F26D1C7BB75600982B23 /* Assets.xcassets */; };
-		DBE4F2711C7BB75600982B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE4F26F1C7BB75600982B23 /* LaunchScreen.storyboard */; };
 		DBE4F27C1C7BB75600982B23 /* SaleStalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4F27B1C7BB75600982B23 /* SaleStalkerTests.swift */; };
 		DBE4F2871C7BD17500982B23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4F2861C7BD17500982B23 /* Constants.swift */; };
 		DBE4F2891C7BD36200982B23 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4F2881C7BD36200982B23 /* DataService.swift */; };
@@ -33,15 +32,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DBA105131CD731060087118D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		10CB51894A1D24B48141936A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		97ECC35272DE4C9CC4CD734B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBCC6CCA1C9FE159006A67BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB304BFF1CD9F0CE005ADA57 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DB304C131CDAB1AA005ADA57 /* SaleStalker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SaleStalker.entitlements; sourceTree = "<group>"; };
 		DBE4F2631C7BB75600982B23 /* SaleStalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaleStalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE4F2661C7BB75600982B23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE4F2681C7BB75600982B23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DBE4F26D1C7BB75600982B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBE4F2701C7BB75600982B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE4F2721C7BB75600982B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBE4F2771C7BB75600982B23 /* SaleStalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaleStalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE4F27B1C7BB75600982B23 /* SaleStalkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleStalkerTests.swift; sourceTree = "<group>"; };
@@ -115,6 +127,7 @@
 		DBE4F2651C7BB75600982B23 /* SaleStalker */ = {
 			isa = PBXGroup;
 			children = (
+				DB304C131CDAB1AA005ADA57 /* SaleStalker.entitlements */,
 				DBE4F2661C7BB75600982B23 /* AppDelegate.swift */,
 				DBE4F2881C7BD36200982B23 /* DataService.swift */,
 				DBE4F2681C7BB75600982B23 /* LoginViewController.swift */,
@@ -122,12 +135,11 @@
 				DBE4F2861C7BD17500982B23 /* Constants.swift */,
 				DBE4F28E1C7C0B1A00982B23 /* Main.storyboard */,
 				DBE58F301CB4A4A6009EA523 /* BrowseTableViewController.swift */,
-				DBCC6CCA1C9FE159006A67BF /* ViewController.swift */,
 				DBE4F28C1C7C086C00982B23 /* WishListTableViewController.swift */,
 				DBE4F2911C7C3FD300982B23 /* ItemCellTableViewCell.swift */,
 				DBE4F2721C7BB75600982B23 /* Info.plist */,
 				DBE4F26D1C7BB75600982B23 /* Assets.xcassets */,
-				DBE4F26F1C7BB75600982B23 /* LaunchScreen.storyboard */,
+				DB304BFF1CD9F0CE005ADA57 /* Launch Screen.storyboard */,
 			);
 			path = SaleStalker;
 			sourceTree = "<group>";
@@ -154,6 +166,7 @@
 				DBE4F2611C7BB75600982B23 /* Resources */,
 				76D7F6AACCA555E5A94E0E00 /* Embed Pods Frameworks */,
 				81EF9331B9D87F0DA67CD838 /* Copy Pods Resources */,
+				DBA105131CD731060087118D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -188,13 +201,18 @@
 		DBE4F25B1C7BB75600982B23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Misa Pham";
 				TargetAttributes = {
 					DBE4F2621C7BB75600982B23 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = C2FCYCNRJ6;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					DBE4F2761C7BB75600982B23 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -227,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE4F2901C7C0B1A00982B23 /* Main.storyboard in Resources */,
-				DBE4F2711C7BB75600982B23 /* LaunchScreen.storyboard in Resources */,
+				DB304C001CD9F0CE005ADA57 /* Launch Screen.storyboard in Resources */,
 				DBE4F26E1C7BB75600982B23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +319,6 @@
 				DBE4F2671C7BB75600982B23 /* AppDelegate.swift in Sources */,
 				DBE4F2871C7BD17500982B23 /* Constants.swift in Sources */,
 				DBE4F2891C7BD36200982B23 /* DataService.swift in Sources */,
-				DBCC6CCB1C9FE159006A67BF /* ViewController.swift in Sources */,
 				DBE4F2921C7C3FD300982B23 /* ItemCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DBE4F26F1C7BB75600982B23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBE4F2701C7BB75600982B23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		DBE4F28E1C7C0B1A00982B23 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +441,7 @@
 			baseConfigurationReference = EF649A1EB6EB55350E472405 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SaleStalker/SaleStalker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SaleStalker/Info.plist;
@@ -447,6 +457,7 @@
 			baseConfigurationReference = 10CB51894A1D24B48141936A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SaleStalker/SaleStalker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SaleStalker/Info.plist;

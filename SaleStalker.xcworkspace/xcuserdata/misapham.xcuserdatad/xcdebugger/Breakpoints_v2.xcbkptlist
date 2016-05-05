@@ -22,31 +22,16 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "SaleStalker.BrowseTableViewController.__deallocating_deinit"
-                  moduleName = "SaleStalker"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
-                  timestampString = "482834416.503329"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
                   symbolName = "SaleStalker.BrowseTableViewController.init (style : __C.UITableViewStyle) -&gt; SaleStalker.BrowseTableViewController"
                   moduleName = "SaleStalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
-                  timestampString = "482834416.503634"
+                  timestampString = "484099643.84922"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "16">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -56,12 +41,12 @@
                   moduleName = "SaleStalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
-                  timestampString = "482834416.503826"
+                  timestampString = "484099643.849545"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "64">
+                  offsetFromSymbolStart = "57">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -71,12 +56,12 @@
                   moduleName = "SaleStalker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/misapham/Desktop/SS/SaleStalker/SaleStalker/BrowseTableViewController.swift"
-                  timestampString = "482834416.504024"
+                  timestampString = "484099643.849728"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "19">
                </Location>
             </Locations>
          </BreakpointContent>

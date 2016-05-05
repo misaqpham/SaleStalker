@@ -4,14 +4,44 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AddItemAction.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Sale Stalker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>SaleStalker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SaleStalkerAddItem.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DB304BE71CD93980005ADA57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB304C041CDA9B7F005ADA57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBA105041CD731060087118D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DBE4F2621C7BB75600982B23</key>
 		<dict>
 			<key>primary</key>
